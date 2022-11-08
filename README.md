@@ -6,7 +6,7 @@
 奉劝一句    不要把怀恋谈的比恋爱还长~~~
 
 m.py是在zhouzying上修改的，但是好像会有页面限制  
-music.py 在github上借用某大佬网易云接口，用node.js自建了接口平台,平台需要自行搭建
+music.py 在github上借用某大佬网易云接口，用node.js自建了接口平台,平台需要自行搭建，参考该项目 Binaryify/NeteaseCloudMusicApi
 
 下面是music.py脚本
 
