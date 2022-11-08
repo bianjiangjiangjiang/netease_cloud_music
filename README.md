@@ -1,19 +1,18 @@
 # netease_cloud_music
-'''
-以歌曲为单位抓取网易云音乐评论
-
-是不是也有那个令人难忘的TA，想在TA的歌单里找到TA留下的痕迹，可以试试这个脚本\n
-但如果你是舔狗那种，建议没必要往下看了，舔狗不配拥有爱情doge\n
-奉劝一句   不要把怀恋谈的比恋爱还长~~~
-
-m.py是在zhouzying上修改的，但是好像会有页面限制
-music.py 在github上借用某大佬网易云接口，用node.js自建了接口平台
-'''
 
 
+是不是也有那个令人难忘的TA，想在TA的歌单里找到TA留下的痕迹，可以试试这个脚本  
+但如果你是舔狗那种，建议没必要往下看了，舔狗不配拥有爱情doge  
+奉劝一句    不要把怀恋谈的比恋爱还长~~~
+
+m.py是在zhouzying上修改的，但是好像会有页面限制  
+music.py 在github上借用某大佬网易云接口，用node.js自建了接口平台,平台需要自行搭建
+
+下面是music.py脚本
 
 
 
+```python
 #-*- coding: utf-8 -*-
 
 '''
@@ -21,6 +20,9 @@ music.py 在github上借用某大佬网易云接口，用node.js自建了接口�
 Author: bianjiangjiangjiang
 Date: 2022-08-05
 '''
+
+
+
 
 import requests
 from requests.exceptions import RequestException
@@ -155,3 +157,5 @@ if __name__ == '__main__':
     # pool = Pool()
     # pool.map(main,groups)
     main()
+    
+```
